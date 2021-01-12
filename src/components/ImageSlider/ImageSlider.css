@@ -1,0 +1,120 @@
+.panel {
+    color: white;
+    height: 100%;
+    min-width: 100%;
+    text-align: center;
+    display: table;
+    margin: 0;
+    background: #1c1c1c;
+    padding: 0 0;
+}
+
+.panel .inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.backgroundimg {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+}
+
+#back1 {
+    background: url('../../Images/ma1.jpg') no-repeat center fixed;
+
+}
+
+#back2 {
+    background: url('../../Images/ma2.jpg') no-repeat center fixed;
+}
+
+#back3 {
+    background: url('../../Images/ma3.jpg') no-repeat center fixed;
+}
+
+#back4 {
+    background: url('../../Images/ma4.jpg') no-repeat center fixed;
+}
+
+#back5 {
+    background: url('../../Images/ma5.jpg') no-repeat center fixed;
+}
+
+@keyframes backgroundchangeFadeInOut {
+  0% {
+    opacity:1;
+  }
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes backgroundchangeFadeInOut {
+  0% {
+    opacity:1;
+  }
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+#backgroundchange div:nth-of-type(1) {
+  animation-delay: 35s;
+  -webkit-animation-delay: 35s;
+}
+#backgroundchange div:nth-of-type(2) {
+  animation-delay: 28s;
+  -webkit-animation-delay: 28s;
+}
+#backgroundchange div:nth-of-type(3) {
+  animation-delay: 21s;
+  -webkit-animation-delay: 21s;
+}
+#backgroundchange div:nth-of-type(4) {
+  animation-delay: 14s;
+  -webkit-animation-delay: 14s;
+}
+
+#backgroundchange div:nth-of-type(5) {
+  animation-delay: 7s;
+  -webkit-animation-delay: 7s;
+}
+
+#backgroundchange div {
+animation-name: backgroundchangeFadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 35s;
+
+-webkit-animation-name: backgroundchangeFadeInOut;
+-webkit-animation-timing-function: ease-in-out;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-duration: 35s;
+
+}
