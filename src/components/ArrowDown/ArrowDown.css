@@ -1,0 +1,25 @@
+.ArrowDown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: transparent;
+}
+
+.arrow {
+    box-sizing: border-box;
+    height: 5vw;
+    width: 5vw;
+    border-style: solid;
+    border-color: white;
+    border-width: 0 0.3vh 0.3vh 0;
+    transform: rotate(45deg);
+    transition: border-width 150ms ease-in-out;
+    background-color: transparent;
+  }
+  
+  .arrow:hover {
+    border-bottom-width: 0.6vh;
+    border-right-width: 0.6vh;
+    cursor: pointer;
+  }
