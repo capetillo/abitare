@@ -1,6 +1,6 @@
 .ArrowDown {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     height: 100vh;
     background-color: transparent;
@@ -16,6 +16,8 @@
     transform: rotate(45deg);
     transition: border-width 150ms ease-in-out;
     background-color: transparent;
+    position: absolute;
+    margin-bottom: 7vh;
   }
   
   .arrow:hover {

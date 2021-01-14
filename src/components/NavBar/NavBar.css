@@ -1,3 +1,87 @@
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 2vh;
+    
+}
+
 .links {
+    margin-right: 5vh;
+    cursor: pointer;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition: 0.55s;
+    z-index: 99;  
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc(0.3em + 1.5vh);
+    color: white;
+    background-color: transparent;
+  
+}
+
+#links {
+    
+}
+
+#link {
+    word-spacing: 50px;
+}
+
+.link1{
+    animation: 2s 2s 2s 1 normal none;
+}
+
+.menu-links {
+    padding: 2vw 0;  
+}
+
+#boton {
+    background-color: rgb(14, 26, 45);  
+    width: 47px;
+    height: 34px;
+    border-color: transparent;  
+}
+
+ #boton:focus {
+    box-shadow:none !important;
+    outline: none !important;
+}
+
+#boton:active {
+    border-color: transparent;
+}
+
+#navbar:hover {
+    cursor: default;
+}
+
+#link:hover{
+    cursor: pointer;
     color: black;
 }
+
+.line {
+    float: left;
+    height: 3px;
+    background-color: rgb(73, 183, 162);
+    margin: 6px;
+    border-radius: 10%;
+}
+
+#line1 {
+    margin: 3.5px 0;
+    width: 180%;
+}
+
+#line2 {
+    margin: 3.5px 0;
+    width: 150%;
+}
+
+#line3 {
+    margin: 3.5px 0;
+    width: 100%;
+}
+

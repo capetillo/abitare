@@ -36,15 +36,15 @@ class NavBar extends Component {
             return (
                  <div className="links" id="navbar">
             
-                    <Nav className="navbar navbar-expand-md navbar-dark shadow-none d-flex justify-content-end">
+                    <Nav className="navbar navbar-expand-md d-flex justify-content-end">
                 
-                    <div className="menu-links">
+                    {/* <div className="menu-links">
                         <Button id ="boton" className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span id="line1" className="line"></span> 
                             <span id="line2" className="line"></span> 
                             <span id="line3" className="line"></span>
                         </Button>
-                    </div>
+                    </div> */}
                     <div className="navbar-collapse collapse" id="navbarNav">
 
                             <Link
