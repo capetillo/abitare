@@ -1,18 +1,27 @@
 import React from 'react';
 import './App.css';
 import Home from './Pages/Home/Home';
-import ArrowDown from './Components/ArrowDown/ArrowDown';
-import HomeBottom from './Pages/HomeBottom/HomeBottom';
+import NavBar from './Components/NavBar/NavBar';
+import Projects from './Pages/Projects/Projects';
+import Error from './Pages/Error/Error';
+import {
+  Switch,
+  Route
+} from "react-router-dom";
 
 
 function App() {
   return (
+
     <div className="App">
-      <Home />
-      <a href='#full'>
-        <ArrowDown />
-      </a>
-      <HomeBottom id='full'/>
+      <NavBar />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/projects" component={Projects} />
+        <Route component={Error} />
+      </Switch>
+   
+      
     </div>
   );
 }

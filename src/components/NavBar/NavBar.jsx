@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
 import './NavBar.css';
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 import { Nav, Button} from 'react-bootstrap';
+import Home from '../../Pages/Home/Home';
+import Projects from '../../Pages/Projects/Projects';
 
 
 class NavBar extends Component {
@@ -35,7 +37,7 @@ class NavBar extends Component {
         render () {
             return (
                  <div className="links" id="navbar">
-            
+                 
                     <Nav className="navbar navbar-expand-md d-flex justify-content-end">
                 
                     {/* <div className="menu-links">
@@ -46,12 +48,12 @@ class NavBar extends Component {
                         </Button>
                     </div> */}
                     <div className="navbar-collapse collapse" id="navbarNav">
-
+                  
                             <Link
                                     id="link"
                                     className="nav-link in-down"
                                     activeClass="active"
-                                    to="home"
+                                    to="/"
                                     spy={true}
                                     smooth={true}
                                     offset={-70}
@@ -64,13 +66,13 @@ class NavBar extends Component {
 
                             <Link
                                     id="link"
-                                    className="nav-link in-down2"
+                                    // className="nav-link in-down2"
                                     activeClass="active"
-                                    to="projects"
-                                    spy={true}
-                                    smooth={true}
-                                    offset={-70}
-                                    duration={700}
+                                    to="/projects"
+                                    // spy={true}
+                                    // smooth={true}
+                                    // offset={-70}
+                                    // duration={700}
                                 > 
                             
                                 PROJECTS
@@ -82,7 +84,7 @@ class NavBar extends Component {
                                     id="link"
                                     className="nav-link in-down3"
                                     activeClass="active"
-                                    to="contact"
+                                    to="/contact"
                                     spy={true}
                                     smooth={true}
                                     offset={-70}
@@ -92,18 +94,14 @@ class NavBar extends Component {
                                 CONTACT
                             
                             </Link>
+                       
                     </div>
             
                 </Nav> 
+                
             </div>
             )
         }
     }
-
-
- 
- 
- 
-    
 
 export default NavBar;

@@ -5,7 +5,7 @@ import { Row, Col } from 'react-bootstrap';
 
 const SectionAHome = () => {
     return (
-        <div className='SectionAHome'>
+        <div className='SectionAHome' id='SectionAHome'>
             <Row className="d-flex align-items-center justify-content-center pb-5 pt-5">
             <Col md={2}></Col>
             <Col sm={12} md={4} className="pb-5 pt-5 text-left mr-5">
