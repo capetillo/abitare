@@ -1,11 +1,11 @@
 import React from 'react';
-import './SectionAHome.css';
+import './SectionBHome.css';
 import image1 from '../../Images/red2.jpg';
 import { Row, Col } from 'react-bootstrap';
 
-const SectionAHome = () => {
+const SectionBHome = () => {
     return (
-        <div className='SectionAHome'>
+        <div className='SectionBHome'>
             <Row className="d-flex align-items-center justify-content-center pb-5 pt-5">
             <Col md={2}></Col>
             <Col sm={12} md={4} className="pb-5 pt-5 text-left mr-5">
@@ -29,4 +29,4 @@ const SectionAHome = () => {
     )
 }
 
-export default SectionAHome;
+export default SectionBHome;

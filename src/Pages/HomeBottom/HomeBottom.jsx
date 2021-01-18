@@ -1,7 +1,7 @@
 import React , { Component } from 'react';
 import './HomeBottom.css';
 import SectionAHome from '../../Components/SectionAHome/SectionAHome';
-
+import SectionBHome from '../../Components/SectionBHome/SectionBHome';
 
 class HomeBottom extends Component {
 
@@ -10,6 +10,7 @@ class HomeBottom extends Component {
     <div className='HomeBottom'>
       <div className='bottom-home'>
         <SectionAHome />
+        <SectionBHome />
       </div>
     </div>
     )

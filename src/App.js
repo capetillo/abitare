@@ -12,7 +12,7 @@ function App() {
       <a href='#full'>
         <ArrowDown />
       </a>
-      <HomeBottom />
+      <HomeBottom id='full'/>
     </div>
   );
 }
