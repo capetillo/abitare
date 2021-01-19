@@ -2,8 +2,6 @@ import React, {Component} from 'react';
 import './NavBar.css';
 import { Link } from "react-router-dom";
 import { Nav, Button} from 'react-bootstrap';
-import Home from '../../Pages/Home/Home';
-import Projects from '../../Pages/Projects/Projects';
 
 
 class NavBar extends Component {
@@ -52,12 +50,9 @@ class NavBar extends Component {
                             <Link
                                     id="link"
                                     className="nav-link in-down"
-                                    activeClass="active"
+                                    
                                     to="/"
-                                    spy={true}
-                                    smooth={true}
-                                    offset={-70}
-                                    duration={700}
+                                  
                                 > 
                                 
                                 HOME
@@ -66,13 +61,10 @@ class NavBar extends Component {
 
                             <Link
                                     id="link"
-                                    // className="nav-link in-down2"
-                                    activeClass="active"
+                                    className="nav-link in-down"
+                                    
                                     to="/projects"
-                                    // spy={true}
-                                    // smooth={true}
-                                    // offset={-70}
-                                    // duration={700}
+                                
                                 > 
                             
                                 PROJECTS
@@ -83,12 +75,9 @@ class NavBar extends Component {
                             <Link
                                     id="link"
                                     className="nav-link in-down3"
-                                    activeClass="active"
+                                   
                                     to="/contact"
-                                    spy={true}
-                                    smooth={true}
-                                    offset={-70}
-                                    duration={700}
+                                    
                                 > 
                                 
                                 CONTACT

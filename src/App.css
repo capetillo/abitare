@@ -1,6 +1,5 @@
-
-
-#full {
-  height: 100vh;
-  background-color: #256347;
+#root {
+  max-width: 100%;
+  overflow-x: hidden;
 }
+
