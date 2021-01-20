@@ -1,5 +1,5 @@
 .topbar-list { 
-    margin: 150px auto 0; 
+    margin: 12vh; 
     padding: 0; 
     list-style: none; 
     display: table;
@@ -10,7 +10,7 @@
   .li { 
     display: table-cell; 
     position: relative; 
-    padding: 15px 0;
+    /* padding: 15px 0; */
   }
 
   #topbar {
@@ -19,7 +19,7 @@
     text-decoration: none;
     letter-spacing: 0.15em;
     display: inline-block;
-    padding: 15px 20px;
+    padding: 1.5vh 2vh;
     position: relative;
     cursor: pointer;
   }
@@ -43,6 +43,7 @@
   }
 
   @media screen and (max-height: 300px) {
+      /* take note of this */
       .topbar-list {
           margin-top: 40px;
       }

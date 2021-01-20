@@ -14,7 +14,7 @@
     transition: 0.55s;
     z-index: 99;  
     font-family: 'Montserrat', sans-serif;
-    font-size: calc(0.3em + 1.5vh);
+    font-size: calc(0.3em + 1vh);
     background-color: transparent; 
 }
 
@@ -22,7 +22,6 @@
     text-decoration: none;
     color: black;
 }
-
 
 .link1{
     animation: 2s 2s 2s 1 normal none;
