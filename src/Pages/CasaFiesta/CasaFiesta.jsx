@@ -11,13 +11,13 @@ const CasaFiesta = () => {
     
             <Row className='pt-2'>
                 <Col lg={6}>
-                    <img src={image} alt='placeholder' className='casa-fiesta-img'/>
+                    <img src={image} alt='placeholder'/>
                 </Col>
                 <Col lg={3}></Col>
                 <Col lg={2}>
-                    <div className='project1'>
-                        <h1>lorem ipsum</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, provident, accusantium, deserunt odit explicabo repudiandae ipsam architecto doloribus magni sapiente natus placeat aliquam iste eius dolor voluptatibus! Exercitationem, ipsa pariatur!
+                    <div className='project-1'>
+                        <h1 className='lorem-title'>Lorem Ipsum</h1>
+                            <p className='lorem-content'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, provident, accusantium, deserunt odit explicabo repudiandae ipsam architecto doloribus magni sapiente natus placeat aliquam iste eius dolor voluptatibus! Exercitationem, ipsa pariatur!
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, molestias. In accusamus eum libero voluptas ab alias veniam ipsam reiciendis error sequi, amet distinctio rerum illo cum. Nemo, omnis totam?
                             </p>
                     </div>

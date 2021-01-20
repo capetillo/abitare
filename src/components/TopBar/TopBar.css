@@ -3,19 +3,19 @@
     padding: 0; 
     list-style: none; 
     display: table;
-    width: 600px;
+    width: 80vh;
     text-align: center;
   }
 
   .li { 
     display: table-cell; 
     position: relative; 
+    font-family: 'Raleway', sans-serif;
     /* padding: 15px 0; */
   }
 
   #topbar {
-    color: rgb(74, 74, 74);
-    text-transform: uppercase;
+    color: rgb(114, 114, 114);
     text-decoration: none;
     letter-spacing: 0.15em;
     display: inline-block;
@@ -29,10 +29,10 @@
     bottom: 0;
     content: "";
     display: block;
-    height: 1px;
+    height: 0.5px;
     left: 50%;
     position: absolute;
-    background: rgb(74, 74, 74);
+    background: rgb(114, 114, 114);
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
   }

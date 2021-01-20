@@ -9,11 +9,11 @@ const SectionAHome = () => {
             <Row className="d-flex align-items-center justify-content-center pb-5 pt-5">
             <Col md={2}></Col>
             <Col sm={12} md={4} className="pb-5 pt-5 text-left mr-5">
-                    <h1 className="project1">
-                         lorem ipsum
+                    <h1 className="lorem-title">
+                         Lorem Ipsum
                     </h1>
                     <div className="project ">
-                    <p>
+                    <p className='lorem-content'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam itaque laudantium optio voluptatum? Dolor asperiores perferendis debitis culpa amet facilis aut facere quia quibusdam harum, laudantium mollitia veniam nihil beatae!
                     </p>
                     </div>

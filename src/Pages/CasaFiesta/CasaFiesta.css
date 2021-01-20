@@ -2,9 +2,19 @@
     margin: 12vh;
 }
 
-.project1 {
+.project-1 {
     position: fixed;
-    padding-right: 5vh;
+    padding-right: 9vh;
+}
+
+.lorem-title {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(74, 74, 74);
+}
+
+.lorem-content {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(114, 114, 114);
 }
 
 #space {
