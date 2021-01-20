@@ -5,10 +5,11 @@ const TopBar = () => {
     return(
     <div className="TopBar">
          <ul className='topbar-list'>
-                <li className='li'><a href="#" id='topbar'>All</a></li>
-                <li className='li'><a href="#" id='topbar'>Arquitectura</a></li>
-                <li className='li'><a href="#" id='topbar'>Diseño</a></li>
-                <li className='li'><a href="#" id='topbar'>Decoración</a></li>
+                <li className='li'><span id='topbar'>All</span></li>
+                <li className='li'><span id='topbar'>Arquitectura</span></li>
+                <li className='li'><span id='topbar'>Diseño</span></li>
+                <li className='li'><span id='topbar'>Decoración</span></li>
+                
          </ul>
 
     </div>
