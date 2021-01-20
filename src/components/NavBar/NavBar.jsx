@@ -45,49 +45,30 @@ class NavBar extends Component {
                             <span id="line3" className="line"></span>
                         </Button>
                     </div> */}
-                    <div className="navbar-collapse collapse" id="navbarNav">
-                  
-                            <Link
-                                    id="link"
-                                    className="nav-link in-down"
-                                    
-                                    to="/"
-                                  
-                                > 
-                                
-                                HOME
-                                
-                            </Link>
-
-                            <Link
-                                    id="link"
-                                    className="nav-link in-down"
-                                    
-                                    to="/projects"
-                                
-                                > 
-                            
-                                PROJECTS
-                                
-                            </Link>
-
-
-                            <Link
-                                    id="link"
-                                    className="nav-link in-down3"
-                                   
-                                    to="/contact"
-                                    
-                                > 
-                                
-                                CONTACT
-                            
-                            </Link>
-                       
-                    </div>
-            
-                </Nav> 
-                
+                    <div className="navbar-collapse collapse" id="navbarNav">                 
+                        <Link
+                            id="link"
+                            className="nav-link in-down"
+                            to="/"
+                            >                     
+                            HOME                                
+                        </Link>
+                        <Link
+                            id="link"
+                            className="nav-link in-down"
+                            to="/projects"
+                            >                            
+                            PROJECTS                               
+                        </Link>
+                        <Link
+                            id="link"
+                            className="nav-link in-down3"                               
+                            to="/contact"                                    
+                            >                                 
+                            CONTACT                            
+                        </Link>                      
+                    </div>            
+                </Nav>                 
             </div>
             )
         }

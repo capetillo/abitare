@@ -2,8 +2,7 @@
 #navbar {
     display: flex;
     justify-content: flex-end;
-    padding-top: 2vh;
-    
+    padding-top: 2vh;  
 }
 
 .links {
@@ -16,16 +15,14 @@
     z-index: 99;  
     font-family: 'Montserrat', sans-serif;
     font-size: calc(0.3em + 1.5vh);
-    color: white;
-    background-color: transparent;
-  
+    background-color: transparent; 
 }
-
 
 #link {
     text-decoration: none;
-    color: white;
+    color: black;
 }
+
 
 .link1{
     animation: 2s 2s 2s 1 normal none;
@@ -57,7 +54,7 @@
 
 #link:hover{
     cursor: pointer;
-    color: black;
+    color: rgb(220, 220, 220);
 }
 
 .line {
