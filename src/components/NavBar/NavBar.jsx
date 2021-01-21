@@ -56,14 +56,14 @@ class NavBar extends Component {
                             className="nav-link in-down"
                             to="/projects"
                             >                            
-                            PROJECTS                               
+                            PROYECTOS                              
                         </Link>
                         <Link
                             id="link"
                             className="nav-link in-down3"                               
                             to="/contact"                                    
                             >                                 
-                            CONTACT                            
+                            CONTACTO                           
                         </Link>                      
                     </div>            
                 </Nav>                 

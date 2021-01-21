@@ -1,51 +1,56 @@
-.topbar-list { 
-    margin: 12vh; 
-    padding: 0; 
-    list-style: none; 
-    display: table;
-    width: 80vh;
-    text-align: center;
-  }
+.TopBar {
+  margin: 5vh;
+}
 
-  .li { 
-    display: table-cell; 
-    position: relative; 
-    font-family: 'Raleway', sans-serif;
-    /* padding: 15px 0; */
-  }
+ol, .ul {
+    list-style: none;
+}
 
-  #topbar {
-    color: rgb(114, 114, 114);
-    text-decoration: none;
-    letter-spacing: 0.15em;
+.item {
     display: inline-block;
-    padding: 1.5vh 2vh;
+    padding: 20px 0 20px;
+    vertical-align: middle;
+}
+
+.anchor:hover, .anchor:focus, .anchor:active {
+    color: rgb(74, 74, 74);
+    text-decoration: none;
+}
+
+.anchor {
+    font-family:'Raleway', sans-serif;
+    text-decoration: none;
+}
+
+.anchor {
     position: relative;
-    cursor: pointer;
-  }
-
-  #topbar:after {    
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: "";
     display: block;
-    height: 0.5px;
-    left: 50%;
+    padding: 5vh 0;
+    margin: 0 2vh;
+    font-size: 1.7vh;
+    /* text-transform: uppercase; */
+    color: rgb(114, 114, 114)
+}
+
+.anchor::before {
+    content: '';
+    display: block;
     position: absolute;
-    background: rgb(114, 114, 114);
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
-  }
+    bottom: 4.2vh;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background-color: rgb(74, 74, 74);
+    transform-origin: center top;
+    transform: scale(0, 1);
+    transition: color 0.1s,transform 0.2s ease-out;
+}
 
-  #topbar:hover:after { 
-    width: 100%; 
-    left: 0; 
-  }
+.anchor:active::before {
+    background-color: rgb(74, 74, 74)
+}
 
-  @media screen and (max-height: 300px) {
-      /* take note of this */
-      .topbar-list {
-          margin-top: 40px;
-      }
-  }
-  
+.anchor:hover::before, .anchor:focus::before {
+    transform-origin: center top;
+    transform: scale(1, 1);
+}

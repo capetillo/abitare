@@ -34,7 +34,10 @@
   .img__description {
     transition: .2s;
     transform: translateY(1em);
-    padding-top: 22vh;
+    padding-top: 25vh;
+    font-weight: 900;
+    letter-spacing: 0.3vh;
+    font-family: 'Raleway', sans-serif;
   }
   
   .img__wrap:hover .img__description {
